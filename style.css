@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background-color: #0066cc;
+  background-color: #7a00cca9;
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -30,7 +30,7 @@ section {
 }
 
 h2 {
-  color: #0066cc;
+  color: #900bdd;
   margin-bottom: 10px;
 }
 
@@ -55,7 +55,7 @@ img {
 }
 
 footer {
-  background-color: #0066cc;
+  background-color: #8100ccb0;
   color: #fff;
   text-align: center;
   padding: 15px;
@@ -75,4 +75,68 @@ a.btn {
 
 a.btn:hover {
   background-color: #ddcef1;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Cabeçalho com tom de roxo */
+h2 {
+  text-align: center;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #6a0dad; /* tom de roxo */
+}
+
+/* Seção centralizada */
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Cartões com fundo roxo claro e detalhes em roxo escuro */
+.card {
+  background: #e0d4f7; /* tom de roxo bem claro */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  transition: transform 0.2s;
+}
+
+/* Efeito ao passar o mouse */
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Imagens com cantos arredondados */
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 15px;
+  border: 2px solid #6a0dad; /* borda roxa */
+}
+
+/* Título interno do cartão com tom de roxo escuro */
+.card h3 {
+  margin-top: 0;
+  color: #4b006e; /* roxo escuro */
+}
+
+/* Texto do parágrafo com tom de cinza escuro para contraste */
+.card p {
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Responsividade para telas menores */
+@media(max-width: 768px) {
+  body {
+    padding: 10px;
+  }
 }
